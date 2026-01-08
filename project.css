@@ -27,9 +27,13 @@
     justify-content: space-between;
     gap: 32px;
 }
+.head_nav .head_element:hover {
+  color: #ff9900;
+}
 .head_nav .head_element{
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 .head_section img{
     height: 60px;
@@ -39,9 +43,10 @@
     background-color: green;
     font-size:16px;
     font-weight:600;
-    border-radius:5px;
+    border-radius:12px;
     color: white;
     padding: 12.5px 16px;
+    cursor: pointer;
 }
 .section1{
     
@@ -69,6 +74,7 @@
     font-weight: 600;
     border-radius: 20px;
     color: #30B868;
+    cursor: pointer;
 }
 .sec1_hed1{
     color: white;
@@ -105,12 +111,16 @@
     gap: 10px;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px;
 }
 .sec1_btn3{
     width: 198px;
     height: 52px;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px;
 }
 .section2 {
     width: 85vw;        
